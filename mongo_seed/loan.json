@@ -1,0 +1,312 @@
+[
+    {
+        "type": "DocumentRef.ЗаявкаНаВыдачуЗайма",
+        "value": "3225a746-9bb9-11ec-b81d-e0c36038fdfb",
+        "description": "Заявка 1ЛМ20000019 от 04.03.2022 15:47:06",
+        "properties": {
+            "loan_kind": {
+                "type": "CatalogRef.ВидыЗаймов",
+                "value": "c83f8f7c-ae3d-11eb-b81d-3cfdfed12dbd",
+                "description": "Рефинансирование тариф \"Оптимальный\" NEW"
+            },
+            "operation": {
+                "type": "EnumRef.ВидыОперацийЗаявкиНаВыдачуЗайма",
+                "value": "РефинансированиеБезДокументовОнлайн",
+                "description": "Рефинансирование без документов (онлайн)"
+            },
+            "date": "2022-03-04",
+            "loan_start_date": "2022-03-04",
+            "loan_end_date": "2022-07-02",
+            "term": 120,
+            "contract": {
+                "type": "CatalogRef.ДоговорыКонтрагентов",
+                "value": "04f795f2-9f8d-11ec-b81d-e0c36038fdfb",
+                "description": "Договор №ЦЗ1ЛМ200020 от 11.03.2022"
+            },
+            "client": {
+                "type": "CatalogRef.Контрагенты",
+                "value": "f71add41-6128-4083-972f-2b2f9edd0e1d",
+                "description": "Ященко Артем Евгеньевич"
+            },
+            "mfo": {
+                "type": "CatalogRef.Организации",
+                "value": "89fc11c6-cf6c-11e3-b40b-000c292a3d16",
+                "description": "Центрофинанс Групп МКК ООО"
+            },
+            "organization": {
+                "type": "CatalogRef.Организации",
+                "value": "89fc11c6-cf6c-11e3-b40b-000c292a3d16",
+                "description": "Центрофинанс Групп МКК ООО"
+            },
+            "subdivision": {
+                "type": "CatalogRef.Подразделения",
+                "value": "46d3e25c-42f4-11e4-8038-e80e3f6b0848",
+                "description": "Северодвинск Ломоносова, 81А"
+            },
+            "arrangment_sum": 30000,
+            "step": {
+                "type": "CatalogRef.ШагиЗаявокНаВыдачуЗайма",
+                "value": "fa16efd2-3aff-11e7-80c1-9b53c973cc07",
+                "description": "Отказано"
+            },
+            "state": {
+                "type": "CatalogRef.СостоянияЗаявокВнешнихСистем",
+                "value": "e5f75168-46dc-11ec-b814-ab50bd3259c0",
+                "description": "Отказано"
+            },
+            "bank_card": {
+                "type": "CatalogRef.БанковскиеКарты",
+                "value": "34c89d2a-9bf1-11ec-b81d-e0c36038fdfb",
+                "description": "133467ХХХХХХ6568"
+            }
+        }
+    },
+    {
+        "type": "DocumentRef.ЗаявкаНаВыдачуЗайма",
+        "value": "e0c42d62-a5c5-11ec-b81d-e0c36038fdfb",
+        "description": "Заявка 1ЛМ20000036 от 17.03.2022 10:43:08",
+        "properties": {
+            "loan_kind": {
+                "type": "CatalogRef.ВидыЗаймов",
+                "value": "c83f8f7c-ae3d-11eb-b81d-3cfdfed12dbd",
+                "description": "Рефинансирование тариф \"Оптимальный\" NEW"
+            },
+            "operation": {
+                "type": "EnumRef.ВидыОперацийЗаявкиНаВыдачуЗайма",
+                "value": "РефинансированиеБезДокументовОнлайн",
+                "description": "Рефинансирование без документов (онлайн)"
+            },
+            "date": "2022-03-17",
+            "loan_start_date": "2022-03-17",
+            "loan_end_date": "2022-10-13",
+            "term": 210,
+            "contract": {
+                "type": "CatalogRef.ДоговорыКонтрагентов",
+                "value": "df963c1a-a5ca-11ec-b81d-e0c36038fdfb",
+                "description": "Договор №ЦЗ1ЛМ200024 от 17.03.2022"
+            },
+            "client": {
+                "type": "CatalogRef.Контрагенты",
+                "value": "f71add41-6128-4083-972f-2b2f9edd0e1d",
+                "description": "Ященко Артем Евгеньевич"
+            },
+            "mfo": {
+                "type": "CatalogRef.Организации",
+                "value": "89fc11c6-cf6c-11e3-b40b-000c292a3d16",
+                "description": "Центрофинанс Групп МКК ООО"
+            },
+            "organization": {
+                "type": "CatalogRef.Организации",
+                "value": "89fc11c6-cf6c-11e3-b40b-000c292a3d16",
+                "description": "Центрофинанс Групп МКК ООО"
+            },
+            "subdivision": {
+                "type": "CatalogRef.Подразделения",
+                "value": "46d3e25c-42f4-11e4-8038-e80e3f6b0848",
+                "description": "Северодвинск Ломоносова, 81А"
+            },
+            "arrangment_sum": 25000,
+            "step": {
+                "type": "CatalogRef.ШагиЗаявокНаВыдачуЗайма",
+                "value": "fd2f9001-1f68-11e7-80c1-9b53c973cc07",
+                "description": "Завершено"
+            },
+            "state": {
+                "type": "CatalogRef.СостоянияЗаявокВнешнихСистем",
+                "value": "e5f75166-46dc-11ec-b814-ab50bd3259c0",
+                "description": "Завершено"
+            },
+            "bank_card": {
+                "type": "CatalogRef.БанковскиеКарты",
+                "value": "34c89d2a-9bf1-11ec-b81d-e0c36038fdfb",
+                "description": "133467ХХХХХХ6568"
+            }
+        }
+    },
+    {
+        "type": "DocumentRef.ЗаявкаНаВыдачуЗайма",
+        "value": "257db6fb-aa7f-11ec-b81e-a1c73abf2a51",
+        "description": "Заявка 1ЛМ20000049 от 23.03.2022 10:59:21",
+        "properties": {
+            "loan_kind": {
+                "type": "CatalogRef.ВидыЗаймов",
+                "value": "c83f8f7c-ae3d-11eb-b81d-3cfdfed12dbd",
+                "description": "Рефинансирование тариф \"Оптимальный\" NEW"
+            },
+            "operation": {
+                "type": "EnumRef.ВидыОперацийЗаявкиНаВыдачуЗайма",
+                "value": "ВыдачаОнлайн",
+                "description": "Выдача онлайн"
+            },
+            "date": "2022-03-23",
+            "loan_start_date": "2022-03-23",
+            "loan_end_date": "2022-11-17",
+            "term": 239,
+            "contract": {
+                "type": "CatalogRef.ДоговорыКонтрагентов",
+                "value": "00000000-0000-0000-0000-000000000000",
+                "description": ""
+            },
+            "client": {
+                "type": "CatalogRef.Контрагенты",
+                "value": "f71add41-6128-4083-972f-2b2f9edd0e1d",
+                "description": "Ященко Артем Евгеньевич"
+            },
+            "mfo": {
+                "type": "CatalogRef.Организации",
+                "value": "89fc11c6-cf6c-11e3-b40b-000c292a3d16",
+                "description": "Центрофинанс Групп МКК ООО"
+            },
+            "organization": {
+                "type": "CatalogRef.Организации",
+                "value": "89fc11c6-cf6c-11e3-b40b-000c292a3d16",
+                "description": "Центрофинанс Групп МКК ООО"
+            },
+            "subdivision": {
+                "type": "CatalogRef.Подразделения",
+                "value": "46d3e25c-42f4-11e4-8038-e80e3f6b0848",
+                "description": "Северодвинск Ломоносова, 81А"
+            },
+            "arrangment_sum": 75000,
+            "step": {
+                "type": "CatalogRef.ШагиЗаявокНаВыдачуЗайма",
+                "value": "7b224d95-0757-11e7-80be-af0e850d5ac0",
+                "description": "Проверка"
+            },
+            "state": {
+                "type": "CatalogRef.СостоянияЗаявокВнешнихСистем",
+                "value": "e5f7516b-46dc-11ec-b814-ab50bd3259c0",
+                "description": "Подписание"
+            },
+            "bank_card": {
+                "type": "CatalogRef.БанковскиеКарты",
+                "value": "00000000-0000-0000-0000-000000000000",
+                "description": ""
+            }
+        }
+    },
+    {
+        "type": "DocumentRef.ЗаявкаНаВыдачуЗайма",
+        "value": "4ac9e0b8-b0ca-11ec-b81e-a1c73abf2a51",
+        "description": "Заявка 1ЛМ20000070 от 31.03.2022 11:12:23",
+        "properties": {
+            "loan_kind": {
+                "type": "CatalogRef.ВидыЗаймов",
+                "value": "c83f8f7c-ae3d-11eb-b81d-3cfdfed12dbd",
+                "description": "Рефинансирование тариф \"Оптимальный\" NEW"
+            },
+            "operation": {
+                "type": "EnumRef.ВидыОперацийЗаявкиНаВыдачуЗайма",
+                "value": "РефинансированиеБезДокументовОнлайн",
+                "description": "Рефинансирование без документов (онлайн)"
+            },
+            "date": "2022-03-31",
+            "loan_start_date": "2022-03-31",
+            "loan_end_date": "2022-10-23",
+            "term": 206,
+            "contract": {
+                "type": "CatalogRef.ДоговорыКонтрагентов",
+                "value": "00000000-0000-0000-0000-000000000000",
+                "description": ""
+            },
+            "client": {
+                "type": "CatalogRef.Контрагенты",
+                "value": "f71add41-6128-4083-972f-2b2f9edd0e1d",
+                "description": "Ященко Артем Евгеньевич"
+            },
+            "mfo": {
+                "type": "CatalogRef.Организации",
+                "value": "89fc11c6-cf6c-11e3-b40b-000c292a3d16",
+                "description": "Центрофинанс Групп МКК ООО"
+            },
+            "organization": {
+                "type": "CatalogRef.Организации",
+                "value": "89fc11c6-cf6c-11e3-b40b-000c292a3d16",
+                "description": "Центрофинанс Групп МКК ООО"
+            },
+            "subdivision": {
+                "type": "CatalogRef.Подразделения",
+                "value": "46d3e25c-42f4-11e4-8038-e80e3f6b0848",
+                "description": "Северодвинск Ломоносова, 81А"
+            },
+            "arrangment_sum": 65000,
+            "step": {
+                "type": "CatalogRef.ШагиЗаявокНаВыдачуЗайма",
+                "value": "7b224d95-0757-11e7-80be-af0e850d5ac0",
+                "description": "Проверка"
+            },
+            "state": {
+                "type": "CatalogRef.СостоянияЗаявокВнешнихСистем",
+                "value": "e5f7516c-46dc-11ec-b814-ab50bd3259c0",
+                "description": "Рассмотрение заявки"
+            },
+            "bank_card": {
+                "type": "CatalogRef.БанковскиеКарты",
+                "value": "00000000-0000-0000-0000-000000000000",
+                "description": ""
+            }
+        }
+    },
+    {
+        "type": "DocumentRef.ЗаявкаНаВыдачуЗайма",
+        "value": "813b48b0-b19d-11ec-b81e-a1c73abf2a51",
+        "description": "Заявка 1ЛМ20000076 от 01.04.2022 12:24:18",
+        "properties": {
+            "loan_kind": {
+                "type": "CatalogRef.ВидыЗаймов",
+                "value": "c83f8f7c-ae3d-11eb-b81d-3cfdfed12dbd",
+                "description": "Рефинансирование тариф \"Оптимальный\" NEW"
+            },
+            "operation": {
+                "type": "EnumRef.ВидыОперацийЗаявкиНаВыдачуЗайма",
+                "value": "РефинансированиеБезДокументовОнлайн",
+                "description": "Рефинансирование без документов (онлайн)"
+            },
+            "date": "2022-04-01",
+            "loan_start_date": "2022-04-01",
+            "loan_end_date": "2022-07-30",
+            "term": 120,
+            "contract": {
+                "type": "CatalogRef.ДоговорыКонтрагентов",
+                "value": "00000000-0000-0000-0000-000000000000",
+                "description": ""
+            },
+            "client": {
+                "type": "CatalogRef.Контрагенты",
+                "value": "f71add41-6128-4083-972f-2b2f9edd0e1d",
+                "description": "Ященко Артем Евгеньевич"
+            },
+            "mfo": {
+                "type": "CatalogRef.Организации",
+                "value": "89fc11c6-cf6c-11e3-b40b-000c292a3d16",
+                "description": "Центрофинанс Групп МКК ООО"
+            },
+            "organization": {
+                "type": "CatalogRef.Организации",
+                "value": "89fc11c6-cf6c-11e3-b40b-000c292a3d16",
+                "description": "Центрофинанс Групп МКК ООО"
+            },
+            "subdivision": {
+                "type": "CatalogRef.Подразделения",
+                "value": "46d3e25c-42f4-11e4-8038-e80e3f6b0848",
+                "description": "Северодвинск Ломоносова, 81А"
+            },
+            "arrangment_sum": 30000,
+            "step": {
+                "type": "CatalogRef.ШагиЗаявокНаВыдачуЗайма",
+                "value": "7b224d95-0757-11e7-80be-af0e850d5ac0",
+                "description": "Проверка"
+            },
+            "state": {
+                "type": "CatalogRef.СостоянияЗаявокВнешнихСистем",
+                "value": "e5f7516c-46dc-11ec-b814-ab50bd3259c0",
+                "description": "Рассмотрение заявки"
+            },
+            "bank_card": {
+                "type": "CatalogRef.БанковскиеКарты",
+                "value": "00000000-0000-0000-0000-000000000000",
+                "description": ""
+            }
+        }
+    }
+]

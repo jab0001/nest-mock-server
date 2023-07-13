@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  db:
+    container_name: 'testbase'
+    image: mongo:latest
+    restart: always
+    environment:
+      - MONGODB_DB=${TYPEORM_DATABASE}
+    ports: [
+      "${TYPEORM_PORT}:${TYPEORM_PORT}"
+    ]
+  dbseed:
+    build: 
+      context: ./mongo_seed
+    links:
+      - db
+  backend:
+    container_name: backend-nest
+    build: 
+      context: ./backend
+    depends_on: 
+      - db
+    restart: unless-stopped
+    ports:
+      - ${API_PORT}:3001
+    environment:
+      - API_PORT=${API_PORT}
+      - API_HOST=${API_HOST}
+      - TYPEORM_CONNECTION=${TYPEORM_CONNECTION}
+      - TYPEORM_DATABASE=${TYPEORM_DATABASE}
+      - TYPEORM_PORT=${TYPEORM_PORT}
+      - TYPEORM_HOST=db
+      
